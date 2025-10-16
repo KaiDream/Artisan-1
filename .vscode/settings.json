@@ -1,0 +1,16 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/stubs"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "warning",
+        "reportMissingModuleSource": "none"
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.stubPath": "${workspaceFolder}/stubs",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    }
+}

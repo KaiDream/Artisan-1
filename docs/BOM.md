@@ -13,12 +13,12 @@ Complete component list with recommended suppliers and purchasing links.
 
 | Component | Quantity | Unit Price | Total | Supplier Links |
 |-----------|----------|------------|-------|---------------|
-| **PLA Filament** (1kg spools) | 5 kg | $20.00 | $100.00 | [Amazon](https://amazon.com), [MatterHackers](https://matterhackers.com) |
+| **PLA Filament** (1kg spools) | 5 kg | $20.00 | $100.00 | [Amazon - Overture PLA](https://www.amazon.com/s?k=overture+pla+filament), [MatterHackers](https://www.matterhackers.com/store/c/pla-filament) |
 | **M3 Screws** (assorted lengths) | 100+ | - | - | Included in kit |
 | **M4 Screws** (assorted lengths) | 50+ | - | - | Included in kit |
 | **M3/M4 Nuts** | 100+ | - | - | Included in kit |
 | **Ball Bearings** (608ZZ) | 10 | - | - | Included in kit |
-| **Hardware Kit** (complete) | 1 | $40.00 | $40.00 | [Amazon](https://amazon.com/dp/B07CYNKLT4) |
+| **Hardware Kit** (complete) | 1 | $40.00 | $40.00 | [Amazon - Glarks 1080pcs](https://www.amazon.com/Glarks-1080Pcs-Stainless-Assortment-Wrenches/dp/B07CYNKLT4) |
 
 **Subtotal: $140.00**
 
@@ -30,7 +30,7 @@ Complete component list with recommended suppliers and purchasing links.
 
 | Component | Quantity | Unit Price | Total | Supplier Links |
 |-----------|----------|------------|-------|---------------|
-| **Hiwonder LX-16A** Serial Bus Servo | 10 | $21.00 | $210.00 | [Hiwonder](https://hiwonder.com/products/lx-16a), [RobotShop](https://robotshop.com), [eBay](https://ebay.com) |
+| **Hiwonder LX-16A** Serial Bus Servo | 10 | $21.00 | $210.00 | [Hiwonder Direct](https://www.hiwonder.com/collections/serial-bus-servo/products/lx-16a-serial-bus-servo), [Amazon - 6 Pack](https://www.amazon.com/s?k=hiwonder+lx-16a), [RobotShop](https://www.robotshop.com/products/hiwonder-lx-16a-bus-servo) |
 
 **Specifications:**
 - Torque: 17 kg·cm @ 7V
@@ -44,7 +44,7 @@ Complete component list with recommended suppliers and purchasing links.
 
 | Component | Quantity | Unit Price | Total | Supplier Links |
 |-----------|----------|------------|-------|---------------|
-| **TowerPro MG996R** Metal Gear Servo | 16 | $10.00 | $160.00 | [Amazon](https://amazon.com/dp/B07MFK266B), [Adafruit](https://adafruit.com), [DIYmore](https://diyelectronics.co.za) |
+| **TowerPro MG996R** Metal Gear Servo | 16 | $10.00 | $160.00 | [Amazon - 4 Pack](https://www.amazon.com/Smraza-Towerpro-Digital-Helicopter-Airplane/dp/B07MFK266B), [Adafruit MG995](https://www.adafruit.com/product/1142), [RobotShop](https://www.robotshop.com/products/towerpro-mg996r-metal-gear-servo-motor) |
 
 **Specifications:**
 - Torque: 11 kg·cm @ 6V
@@ -60,10 +60,10 @@ Complete component list with recommended suppliers and purchasing links.
 
 | Component | Quantity | Unit Price | Total | Supplier Links |
 |-----------|----------|------------|-------|---------------|
-| **Raspberry Pi 5** (8GB RAM) | 1 | $80.00 | $80.00 | [CanaKit](https://canakit.com/raspberry-pi-5-8gb.html), [Adafruit](https://adafruit.com), [PiShop.us](https://pishop.us) |
-| **Raspberry Pi Camera Module 3** | 1 | $30.00 | $30.00 | [Raspberry Pi Resellers](https://raspberrypi.com), [Adafruit](https://adafruit.com/product/5657) |
-| **SanDisk 64GB microSD** (A2 Class) | 1 | $12.00 | $12.00 | [Amazon](https://amazon.com/dp/B08GY9NYRM) |
-| **PCA9685 16-Channel PWM Driver** | 2 | $15.00 | $30.00 | [Adafruit](https://adafruit.com/product/815), [Amazon](https://amazon.com/dp/B07WS5XY65) |
+| **Raspberry Pi 5** (8GB RAM) | 1 | $80.00 | $80.00 | [CanaKit](https://www.canakit.com/raspberry-pi-5-8gb.html), [Adafruit](https://www.adafruit.com/product/5813), [Raspberry Pi Official](https://www.raspberrypi.com/products/raspberry-pi-5/) |
+| **Raspberry Pi Camera Module 3** | 1 | $30.00 | $30.00 | [Adafruit](https://www.adafruit.com/product/5657), [Amazon](https://www.amazon.com/s?k=raspberry+pi+camera+module+3), [CanaKit](https://www.canakit.com/raspberry-pi-camera-module-3.html) |
+| **SanDisk 64GB microSD** (A2 Class) | 1 | $12.00 | $12.00 | [Amazon - SanDisk Ultra](https://www.amazon.com/SanDisk-Ultra-MicroSDXC-Memory-Adapter/dp/B08GY9NYRM) |
+| **PCA9685 16-Channel PWM Driver** | 2 | $15.00 | $30.00 | [Adafruit Official](https://www.adafruit.com/product/815), [Amazon - HiLetgo](https://www.amazon.com/HiLetgo-PCA9685-Channel-12-Bit-Arduino/dp/B07WS5XY65) |
 
 **Subtotal: $152.00**
 
@@ -73,12 +73,12 @@ Complete component list with recommended suppliers and purchasing links.
 
 | Component | Quantity | Unit Price | Total | Supplier Links |
 |-----------|----------|------------|-------|---------------|
-| **3S LiPo Battery** (11.1V 5000mAh 50C) | 1 | $40.00 | $40.00 | [HRB Power](https://hrb-power.com), [Gens Ace](https://gensace.com), [Amazon](https://amazon.com) |
-| **LiPo Balance Charger** (B6 or similar) | 1 | $30.00 | $30.00 | [HobbyKing](https://hobbyking.com), [Amazon](https://amazon.com/dp/B07YKRJ8YR) |
-| **10A UBEC** (Switching regulator, 6V out) | 1 | $25.00 | $25.00 | [Hobbywing](https://hobbywing.com), [Aloft Hobbies](https://alofthobbies.com), [RCAWD](https://rcawd.com) |
-| **5A UBEC** (5V for logic) | 1 | $10.00 | $10.00 | [Amazon](https://amazon.com/dp/B08XQCV9VJ), [RobotShop](https://robotshop.com) |
-| **Silicone Wire Kit** (12-18 AWG) | 1 | $15.00 | $15.00 | [Amazon](https://amazon.com/dp/B07G72DRKC) |
-| **XT60 Connectors** (male/female pairs) | 5 pairs | $2.00 | $10.00 | [Amazon](https://amazon.com/dp/B07TF8RPSG) |
+| **3S LiPo Battery** (11.1V 5000mAh 50C) | 1 | $40.00 | $40.00 | [Amazon - Zeee 3S](https://www.amazon.com/s?k=zeee+3s+5000mah+lipo), [Gens Ace](https://www.genstattu.com/), [HobbyKing](https://hobbyking.com/en_us/batteries/lipoly.html) |
+| **LiPo Balance Charger** (B6 or similar) | 1 | $30.00 | $30.00 | [Amazon - HTRC B6](https://www.amazon.com/HTRC-Balance-Discharger-Voltage-Detection/dp/B07YKRJ8YR), [HobbyKing](https://hobbyking.com/en_us/chargers.html) |
+| **10A UBEC** (Switching regulator, 6V out) | 1 | $25.00 | $25.00 | [Amazon - Hobbywing 10A](https://www.amazon.com/s?k=hobbywing+ubec+10a), [RobotShop UBEC](https://www.robotshop.com/products/10a-ubec) |
+| **5A UBEC** (5V for logic) | 1 | $10.00 | $10.00 | [Amazon - HOBBYWING](https://www.amazon.com/s?k=5a+ubec+5v), [RobotShop](https://www.robotshop.com/products/5v-5a-ubec) |
+| **Silicone Wire Kit** (12-18 AWG) | 1 | $15.00 | $15.00 | [Amazon - BNTECHGO](https://www.amazon.com/BNTECHGO-Silicone-Flexible-Strands-Stranded/dp/B07G72DRKC) |
+| **XT60 Connectors** (male/female pairs) | 5 pairs | $2.00 | $10.00 | [Amazon - 10 Pairs](https://www.amazon.com/Pairs-Female-Bullet-Connectors-Battery/dp/B07TF8RPSG) |
 
 **Subtotal: $130.00**
 
@@ -90,9 +90,9 @@ Complete component list with recommended suppliers and purchasing links.
 
 | Component | Quantity | Unit Price | Total | Supplier Links |
 |-----------|----------|------------|-------|---------------|
-| **Force Sensitive Resistor** (FSR 402) | 4 | $7.00 | $28.00 | [Adafruit](https://adafruit.com/product/166), [SparkFun](https://sparkfun.com/products/9375) |
-| **ADS1115 16-bit ADC** (I2C) | 1 | $10.00 | $10.00 | [Adafruit](https://adafruit.com/product/1085), [Amazon](https://amazon.com/dp/B07VPFLSMX) |
-| **10kΩ Resistors** (1/4W, pack of 100) | 1 pack | $8.00 | $8.00 | [Amazon](https://amazon.com/dp/B072BL2VX1), [Adafruit](https://adafruit.com) |
+| **Force Sensitive Resistor** (FSR 402) | 4 | $7.00 | $28.00 | [Adafruit FSR 402](https://www.adafruit.com/product/166), [SparkFun](https://www.sparkfun.com/products/9375), [Amazon](https://www.amazon.com/s?k=fsr+force+sensitive+resistor) |
+| **ADS1115 16-bit ADC** (I2C) | 1 | $10.00 | $10.00 | [Adafruit ADS1115](https://www.adafruit.com/product/1085), [Amazon - HiLetgo](https://www.amazon.com/HiLetgo-Converter-Programmable-Amplifier-Development/dp/B07VPFLSMX) |
+| **10kΩ Resistors** (1/4W, pack of 100) | 1 pack | $8.00 | $8.00 | [Amazon - Elegoo](https://www.amazon.com/ELEGOO-Values-Resistor-Assortment-Compliant/dp/B072BL2VX1), [Adafruit](https://www.adafruit.com/product/2784) |
 
 **Note:** For dual-hand sensing, purchase 2x ADS1115 and 8x FSR sensors (+$46)
 
@@ -104,10 +104,10 @@ Complete component list with recommended suppliers and purchasing links.
 
 | Component | Quantity | Unit Price | Total | Supplier Links |
 |-----------|----------|------------|-------|---------------|
-| **Ecoflex 00-30** Silicone (pint kit) | 1 | $40.00 | $40.00 | [Smooth-On](https://smooth-on.com), [Amazon](https://amazon.com/dp/B00CZX66A4) |
+| **Ecoflex 00-30** Silicone (pint kit) | 1 | $40.00 | $40.00 | [Smooth-On Direct](https://www.smooth-on.com/products/ecoflex-00-30/), [Amazon](https://www.amazon.com/Smooth-Ecoflex-00-30-Silicone-Rubber/dp/B00CZX66A4) |
 
 **Alternative:**
-- **High-Friction Silicone Tape** | 1 roll | $15.00 | [Lee Valley](https://leevalley.com), [FindTape](https://findtape.com)
+- **High-Friction Silicone Tape** | 1 roll | $15.00 | [Amazon - Rescue Tape](https://www.amazon.com/s?k=silicone+self+fusing+tape)
 
 **Subtotal: $40.00**
 
@@ -117,9 +117,9 @@ Complete component list with recommended suppliers and purchasing links.
 
 | Component | Quantity | Unit Price | Total | Supplier Links |
 |-----------|----------|------------|-------|---------------|
-| **Jumper Wire Kit** (M-M, M-F, F-F) | 1 | $8.00 | $8.00 | [Amazon](https://amazon.com/dp/B07GD2BWPY) |
-| **Mini Breadboard** | 2 | $3.00 | $6.00 | [Amazon](https://amazon.com/dp/B07DL13RZH) |
-| **Heat Shrink Tubing Kit** | 1 | $6.00 | $6.00 | [Amazon](https://amazon.com/dp/B084GDLSCK) |
+| **Jumper Wire Kit** (M-M, M-F, F-F) | 1 | $8.00 | $8.00 | [Amazon - Elegoo](https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY) |
+| **Mini Breadboard** | 2 | $3.00 | $6.00 | [Amazon - 10 Pack](https://www.amazon.com/Breadboards-Solderless-Breadboard-Distribution-Connecting/dp/B07DL13RZH) |
+| **Heat Shrink Tubing Kit** | 1 | $6.00 | $6.00 | [Amazon - 560pcs](https://www.amazon.com/Ginsco-580-heat-shrink-tubing/dp/B084GDLSCK) |
 
 **Subtotal: $20.00**
 

@@ -71,9 +71,14 @@ This project demonstrates that sophisticated robotics research capabilities are 
 │  │ AI (TF)  │  │ Sensing  │  │ IK Solver  │           │
 │  └──────────┘  └──────────┘  └────────────┘           │
 └─────────────────────────────────────────────────────────┘
+        ↓              ↓              ↓
+    ┌───────┐      ┌───────┐      ┌───────┐
+    │Camera │      │ FSR   │      │Servos │
+    │Module │      │Arrays │      │(26x)  │
+    └───────┘      └───────┘      └───────┘
 ```
 
-See [full architecture diagram](docs/architecture.md).
+See [Software Architecture](docs/software_architecture.md) for detailed documentation.
 
 ---
 
@@ -126,18 +131,46 @@ See [docs/BOM.md](docs/BOM.md) for complete list with supplier links.
 
 ## 💻 Software Setup
 
-### Raspberry Pi Configuration
+### Automated Setup (Recommended)
+
+On your Raspberry Pi, run the automated setup script:
 
 ```bash
-# Enable I2C and Camera
+git clone https://github.com/KaiDream/Artisan-1.git
+cd Artisan-1
+chmod +x setup.sh
+./setup.sh
+```
+
+The script will:
+- Install all system dependencies
+- Enable I2C, SPI, UART, and Camera interfaces
+- Install Python packages
+- Download AI models
+- Configure hardware interfaces
+
+### Manual Setup
+
+If you prefer manual setup:
+
+```bash
+# Enable hardware interfaces
 sudo raspi-config
+# Navigate to: Interface Options
+# Enable: I2C, SPI, Camera
 
 # Install system dependencies
 sudo apt update
-sudo apt install -y python3-pip python3-opencv libatlas-base-dev
+sudo apt install -y python3-pip python3-opencv libatlas-base-dev i2c-tools
 
 # Install Python packages
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+
+# Download TensorFlow Lite model
+cd models
+wget https://storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
+unzip coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
+mv detect.tflite mobilenet_ssd_v2.tflite
 ```
 
 ### Software Modules
@@ -152,9 +185,12 @@ pip install -r requirements.txt
 
 ## 📖 Documentation
 
-- [Design Document](.github/instructions/DIY%20AI%20Robot%20Design%20Under%20$1500.md) - Complete specification
-- [Bill of Materials](docs/BOM.md) - Detailed component list
-- [Configuration](config/robot_config.json) - System configuration
+- [Quick Start Guide](docs/quick_start.md) - Step-by-step setup and assembly
+- [Bill of Materials](docs/BOM.md) - Detailed component list with verified links
+- [Software Architecture](docs/software_architecture.md) - Technical documentation
+- [Design Specification](.github/instructions/artisan-1.instructions.md) - Project context and guidelines
+- [System Configuration](config/robot_config.json) - Robot configuration file
+- [Test Suite](tests/test_subsystems.py) - Automated testing
 
 ---
 

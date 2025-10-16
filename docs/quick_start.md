@@ -71,12 +71,12 @@ Build Plate Adhesion: Brim or raft recommended
 ### 2.1 Flash SD Card
 
 1. Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-2. Select **Raspberry Pi OS (64-bit)**
+2. Select **Raspberry Pi OS (64-bit)** (Debian Bookworm based)
 3. Configure:
    - Hostname: `artisan1`
    - Enable SSH
    - Set username/password
-   - Configure WiFi
+   - Configure WiFi (optional)
 4. Flash to SD card
 
 ### 2.2 First Boot

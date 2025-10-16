@@ -306,6 +306,23 @@ class ArtisanServoController:
         
         logger.info("Artisan Servo Controller initialized")
     
+    def _load_config(self, config_file: str):
+        """
+        Load servo configuration from JSON file.
+        
+        Args:
+            config_file: Path to configuration file
+        """
+        import json
+        
+        with open(config_file, 'r') as f:
+            config = json.load(f)
+        
+        # Parse servo mappings from config
+        # This is a placeholder - implement full config parsing
+        logger.info(f"Configuration loaded from {config_file}")
+        self._init_default_mapping()  # Fall back to defaults for now
+    
     def _init_default_mapping(self):
         """Initialize default servo mapping"""
         # Legs - Serial Bus Servos (ID 1-10)
