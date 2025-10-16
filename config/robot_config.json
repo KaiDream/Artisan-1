@@ -1,0 +1,127 @@
+{
+  "robot_name": "Artisan-1",
+  "version": "0.1.0",
+  
+  "servo_configuration": {
+    "pwm_controllers": [
+      {
+        "board_id": 1,
+        "i2c_address": "0x40",
+        "description": "Arms and head servos"
+      },
+      {
+        "board_id": 2,
+        "i2c_address": "0x41",
+        "description": "Hand servos"
+      }
+    ],
+    
+    "serial_bus": {
+      "port": "/dev/ttyAMA0",
+      "baudrate": 115200,
+      "description": "LX-16A servos for legs"
+    }
+  },
+  
+  "servo_mapping": {
+    "left_leg": {
+      "hip_pitch": {"type": "serial", "id": 1, "offset": 0},
+      "hip_roll": {"type": "serial", "id": 2, "offset": 0},
+      "hip_yaw": {"type": "serial", "id": 3, "offset": 0},
+      "knee": {"type": "serial", "id": 4, "offset": 0},
+      "ankle": {"type": "serial", "id": 5, "offset": 0}
+    },
+    
+    "right_leg": {
+      "hip_pitch": {"type": "serial", "id": 6, "offset": 0},
+      "hip_roll": {"type": "serial", "id": 7, "offset": 0},
+      "hip_yaw": {"type": "serial", "id": 8, "offset": 0},
+      "knee": {"type": "serial", "id": 9, "offset": 0},
+      "ankle": {"type": "serial", "id": 10, "offset": 0}
+    },
+    
+    "left_arm": {
+      "shoulder_pitch": {"type": "pwm", "board": 1, "channel": 0, "offset": 0},
+      "shoulder_roll": {"type": "pwm", "board": 1, "channel": 1, "offset": 0},
+      "shoulder_yaw": {"type": "pwm", "board": 1, "channel": 2, "offset": 0},
+      "elbow": {"type": "pwm", "board": 1, "channel": 3, "offset": 0},
+      "wrist": {"type": "pwm", "board": 1, "channel": 4, "offset": 0}
+    },
+    
+    "right_arm": {
+      "shoulder_pitch": {"type": "pwm", "board": 1, "channel": 5, "offset": 0},
+      "shoulder_roll": {"type": "pwm", "board": 1, "channel": 6, "offset": 0},
+      "shoulder_yaw": {"type": "pwm", "board": 1, "channel": 7, "offset": 0},
+      "elbow": {"type": "pwm", "board": 1, "channel": 8, "offset": 0},
+      "wrist": {"type": "pwm", "board": 1, "channel": 9, "offset": 0}
+    },
+    
+    "head": {
+      "pan": {"type": "pwm", "board": 2, "channel": 0, "offset": 0},
+      "tilt": {"type": "pwm", "board": 2, "channel": 1, "offset": 0}
+    },
+    
+    "left_hand": {
+      "fingers": {"type": "pwm", "board": 2, "channel": 2, "offset": 0},
+      "thumb": {"type": "pwm", "board": 2, "channel": 3, "offset": 0}
+    },
+    
+    "right_hand": {
+      "fingers": {"type": "pwm", "board": 2, "channel": 4, "offset": 0},
+      "thumb": {"type": "pwm", "board": 2, "channel": 5, "offset": 0}
+    }
+  },
+  
+  "vision_config": {
+    "camera_resolution": [640, 480],
+    "model_path": "models/mobilenet_ssd_v2.tflite",
+    "labels_path": "models/coco_labels.txt",
+    "confidence_threshold": 0.6,
+    "camera_height_m": 0.80,
+    "camera_tilt_rad": 0.5
+  },
+  
+  "tactile_config": {
+    "left_hand_adc_address": "0x48",
+    "right_hand_adc_address": "0x49",
+    "sensors": {
+      "left_hand": {
+        "index": {"channel": 0},
+        "middle": {"channel": 1},
+        "ring": {"channel": 2},
+        "thumb": {"channel": 3}
+      },
+      "right_hand": {
+        "index": {"channel": 0},
+        "middle": {"channel": 1},
+        "ring": {"channel": 2},
+        "thumb": {"channel": 3}
+      }
+    },
+    "grasp_threshold_volts": 0.5,
+    "pulldown_resistance_ohms": 10000
+  },
+  
+  "kinematics_config": {
+    "shoulder_offset_m": 0.05,
+    "upper_arm_length_m": 0.25,
+    "forearm_length_m": 0.20,
+    "hand_length_m": 0.10,
+    
+    "joint_limits_deg": {
+      "shoulder_pitch": [-90, 180],
+      "shoulder_roll": [-90, 90],
+      "shoulder_yaw": [-90, 90],
+      "elbow": [0, 150],
+      "wrist": [-90, 90]
+    }
+  },
+  
+  "power_config": {
+    "battery_type": "3S LiPo",
+    "battery_voltage_nominal": 11.1,
+    "battery_capacity_mah": 5000,
+    "servo_voltage": 6.0,
+    "logic_voltage": 5.0
+  }
+}
